@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000'
+const API = 'https://filedrop-backend-upxv.onrender.com'
 
 export default function Download() {
   const { fileId } = useParams()

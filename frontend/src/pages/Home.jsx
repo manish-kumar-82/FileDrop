@@ -4,7 +4,7 @@ import DropZone from '../components/DropZone'
 import ProgressBar from '../components/ProgressBar'
 import ShareCard from '../components/ShareCard'
 
-const API = 'http://localhost:5000'
+const API = 'https://filedrop-backend-upxv.onrender.com'
 
 export default function Home() {
   const [file, setFile] = useState(null)
